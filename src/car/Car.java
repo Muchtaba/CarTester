@@ -12,7 +12,15 @@ package car;
 public class Car {
 
     private String carMake, carModel, carColor;
-    private int carYear, carTopSpeed, ;
-    
-    
+    private int carYear;
+    private double carTopSpeed,carPrice;
+
+    public Car() {
+        carMake = "BMW";
+        carModel = "323i";
+        carColor = "Black";
+        carPrice = 12930;
+        carTopSpeed = 220;
+    }
+
 }
